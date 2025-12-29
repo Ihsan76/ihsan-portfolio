@@ -26,7 +26,7 @@ const projects = [
     description: 'موقع شخصي احترافي بـNext.js 16 مع تصميم عصري، Contact Form تفاعلي، وتجربة مستخدم متجاوبة.',
     image: 'https://via.placeholder.com/400x250/6366F1/FFFFFF?text=Portfolio',
     github: 'https://github.com/Ihsan76/ihsan-portfolio',
-    live: 'https://ihsan-portfolio.vercel.app/',
+    live: 'https://ihsan-portfolio-eta.vercel.app/',
     tech: ['Next.js 16', 'TypeScript', 'Tailwind', 'React']
   }
 ];
