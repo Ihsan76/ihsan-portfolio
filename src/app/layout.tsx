@@ -6,7 +6,8 @@ export const metadata: Metadata = {
   title: 'إحسان الشامي - مطور ويب Full-Stack | React Next.js Django',
   description: 'تطوير مواقع ويب احترافية | React • Next.js • Django • APIs | منصات خمسات ومستقل',
   keywords: 'مطور ويب, React, Next.js, Django, فريلانسر, خمسات, مستقل, تطوير مواقع',
-  authors: [{ name: 'إحسان الشامي', url: 'https://ihsan-portfolio.vercel.app' }],
+  authors: [{ name: 'إحسان الشامي', url: 'https://ihsan-portfolio-eta.vercel.app' }],  // ✅ رابطك الحقيقي
+  // authors: [{ name: 'إحسان الشامي', url: 'https://ihsan-portfolio.vercel.app' }],
   openGraph: {
     title: 'إحسان الشامي - مطور ويب Full-Stack',
     description: 'تطوير مواقع ويب احترافية بـ React Next.js Django',
@@ -27,3 +28,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+
