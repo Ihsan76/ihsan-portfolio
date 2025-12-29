@@ -1,4 +1,4 @@
-// src/app/portfolio/page.tsx
+// src/app/portfolio/page.tsx - الكود الكامل المُصحح
 import Link from 'next/link';
 
 const projects = [
@@ -8,8 +8,8 @@ const projects = [
     description: 'منصة تعليمية وعمل متعددة اللغات مع Django backend وReact frontend. تشمل نظام حجوزات، dashboard، وإدارة محتوى.',
     image: 'https://via.placeholder.com/400x250/4F46E5/FFFFFF?text=Afaq',
     github: 'https://github.com/Ihsan76/afaq',
-    tech: ['React', 'Django', 'PostgreSQL', 'Railway'],
-    live: '#'
+    live: 'https://github.com/Ihsan76/afaq',
+    tech: ['React', 'Django', 'PostgreSQL', 'Railway']
   },
   {
     id: 2,
@@ -17,17 +17,17 @@ const projects = [
     description: 'تطبيق إدارة وسائل التواصل الاجتماعي مع frontend متجاوب وbackend قوي. يدعم النشر المتعدد والجدولة.',
     image: 'https://via.placeholder.com/400x250/10B981/FFFFFF?text=Social+App',
     github: 'https://github.com/Ihsan76/socialmedia_app',
-    tech: ['React', 'Django', 'APIs', 'Responsive'],
-    live: '#'
+    live: 'https://github.com/Ihsan76/socialmedia_app',
+    tech: ['React', 'Django', 'APIs', 'Responsive']
   },
   {
     id: 3,
-    title: 'E-commerce Demo',
-    description: 'متجر إلكتروني كامل مع authentication، سلة شراء، ودفع آمن. جاهز للنشر الإنتاجي.',
-    image: 'https://via.placeholder.com/400x250/EC4899/FFFFFF?text=E-commerce',
-    github: '#',
-    tech: ['Next.js', 'Django REST', 'Stripe', 'Tailwind'],
-    live: '#'
+    title: 'إحسان الشامي - Portfolio',
+    description: 'موقع شخصي احترافي بـNext.js 16 مع تصميم عصري، Contact Form تفاعلي، وتجربة مستخدم متجاوبة.',
+    image: 'https://via.placeholder.com/400x250/6366F1/FFFFFF?text=Portfolio',
+    github: 'https://github.com/Ihsan76/ihsan-portfolio',
+    live: 'https://ihsan-portfolio.vercel.app/',
+    tech: ['Next.js 16', 'TypeScript', 'Tailwind', 'React']
   }
 ];
 
@@ -82,12 +82,15 @@ export default function Portfolio() {
                 <a 
                   href={project.github} 
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="flex-1 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-xl font-semibold text-center hover:shadow-2xl hover:scale-105 transition-all duration-300"
                 >
                   GitHub
                 </a>
                 <a 
                   href={project.live} 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-6 py-3 border-2 border-white/50 rounded-xl font-semibold hover:bg-white hover:text-slate-900 transition-all duration-300 backdrop-blur-sm"
                 >
                   عرض الموقع
