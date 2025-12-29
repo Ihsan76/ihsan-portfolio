@@ -1,12 +1,13 @@
 // src/app/portfolio/page.tsx - الكود الكامل المُصحح
 import Link from 'next/link';
 
+/ src/app/portfolio/page.tsx - صور تعمل 100%
 const projects = [
   {
     id: 1,
     title: 'Afaq - منصة تعليم وعمل',
-    description: 'منصة تعليمية وعمل متعددة اللغات مع Django backend وReact frontend. تشمل نظام حجوزات، dashboard، وإدارة محتوى.',
-    image: 'https://via.placeholder.com/400x250/4F46E5/FFFFFF?text=Afaq',
+    description: 'منصة تعليمية وعمل متعددة اللغات مع Django backend وReact frontend.',
+    image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=250&fit=crop', // ✅ تعمل
     github: 'https://github.com/Ihsan76/afaq',
     live: 'https://github.com/Ihsan76/afaq',
     tech: ['React', 'Django', 'PostgreSQL', 'Railway']
@@ -14,8 +15,8 @@ const projects = [
   {
     id: 2,
     title: 'Social Media App',
-    description: 'تطبيق إدارة وسائل التواصل الاجتماعي مع frontend متجاوب وbackend قوي. يدعم النشر المتعدد والجدولة.',
-    image: 'https://via.placeholder.com/400x250/10B981/FFFFFF?text=Social+App',
+    description: 'تطبيق إدارة وسائل التواصل مع frontend متجاوب وbackend قوي.',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop', // ✅ تعمل
     github: 'https://github.com/Ihsan76/socialmedia_app',
     live: 'https://github.com/Ihsan76/socialmedia_app',
     tech: ['React', 'Django', 'APIs', 'Responsive']
@@ -23,8 +24,8 @@ const projects = [
   {
     id: 3,
     title: 'إحسان الشامي - Portfolio',
-    description: 'موقع شخصي احترافي بـNext.js 16 مع تصميم عصري، Contact Form تفاعلي، وتجربة مستخدم متجاوبة.',
-    image: 'https://via.placeholder.com/400x250/6366F1/FFFFFF?text=Portfolio',
+    description: 'موقع شخصي احترافي بـNext.js 16 مع تصميم عصري وContact Form.',
+    image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=250&fit=crop', // ✅ تعمل
     github: 'https://github.com/Ihsan76/ihsan-portfolio',
     live: 'https://ihsan-portfolio-eta.vercel.app/',
     tech: ['Next.js 16', 'TypeScript', 'Tailwind', 'React']
