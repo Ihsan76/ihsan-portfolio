@@ -1,7 +1,7 @@
 // src/app/portfolio/page.tsx - الكود الكامل المُصحح
 import Link from 'next/link';
 
-/ src/app/portfolio/page.tsx - صور تعمل 100%
+// src/app/portfolio/page.tsx - صور تعمل 100%
 const projects = [
   {
     id: 1,
